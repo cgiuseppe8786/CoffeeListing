@@ -39,20 +39,25 @@ body {
 .hero {
     width: 100%;
     height: 260px;
-    background: url('/resources/bg-cafe.jpg') center/cover no-repeat;
+    background-image: url('./assets/bg-cafe.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #0f1114;
 }
 
-/* versioni responsive del banner */
+/* mobile */
 @media (max-width: 768px) {
     .hero {
-        background-image: url('/resources/bg-cafe-sm.jpg');
+        background-image: url('./assets/bg-cafe-sm.jpg');
         height: 220px;
     }
 }
 
-@media (min-width: 1200px) {
+/* desktop */
+@media (min-width: 1024px) {
     .hero {
-        background-image: url('/resources/bg-cafe-lg.jpg');
+        background-image: url('./assets/bg-cafe-lg.jpg');
         height: 320px;
     }
 }

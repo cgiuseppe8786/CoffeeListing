@@ -35,7 +35,10 @@
     /* riduce lo spostamento a destra */
     width: 520px;
     height: 260px;
-    background: url('/resources/vector.svg') no-repeat center/contain;
+    background-image: url('../../assets/vector.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     opacity: 0.35;
     pointer-events: none;
     z-index: 0;
