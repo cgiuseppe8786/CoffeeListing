@@ -86,7 +86,7 @@
 }
 
 .rating__votes {
-    color: #9aa3ab;
+    color: #bfc6cc;
     font-weight: 600;
     margin-left: 2px;
 }
@@ -102,5 +102,6 @@
 }
 
 .status--soldout {
-    color: #f29999;
+    color: #ff7676;
+    font-weight: 700;
 }
