@@ -1,0 +1,72 @@
+:root {
+    color-scheme: dark;
+    --bg-page: #0f1114;
+    --bg-panel: #1B1D1F;
+    --text: #e8ecef;
+    --muted: #9aa3ab;
+    --card-bg: #2a2d32;
+    --tab-bg: #2f353c;
+    --tab-active: #3a4149;
+    --price: #9be3b2;
+    --popular: #f5d76e;
+    --star: #ffd166;
+    --danger: #f29999;
+    --radius-lg: 22px;
+    --radius-md: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+    background: var(--bg-page);
+    color: var(--text);
+}
+
+.site {
+    min-height: 100%;
+    position: relative;
+}
+
+/* ============================
+   HERO (immagine in alto)
+   ============================ */
+.hero {
+    width: 100%;
+    height: 260px;
+    background: url('/resources/bg-cafe.jpg') center/cover no-repeat;
+}
+
+/* versioni responsive del banner */
+@media (max-width: 768px) {
+    .hero {
+        background-image: url('/resources/bg-cafe-sm.jpg');
+        height: 220px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero {
+        background-image: url('/resources/bg-cafe-lg.jpg');
+        height: 320px;
+    }
+}
+
+/* ============================
+   PANEL CENTRALE
+   ============================ */
+.panel {
+    position: relative;
+    max-width: 1180px;
+    margin: -120px auto 80px;
+    padding: 40px 36px 48px;
+    background: var(--bg-panel);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+}

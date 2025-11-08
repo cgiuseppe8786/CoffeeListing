@@ -1,0 +1,33 @@
+{
+  "name": "coffeelisting",
+  "version": "1.0.0",
+  "description": "![Thumbnail for the Simple Coffee Listing coding challenge](./thumbnail.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgiuseppe8786/CoffeeListing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgiuseppe8786/CoffeeListing/issues"
+  },
+  "homepage": "https://github.com/cgiuseppe8786/CoffeeListing#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2"
+  }
+}
