@@ -39,9 +39,6 @@
 }
 
 .pill {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
     background: #9be3b2;
     color: #123;
     border-radius: 8px;
@@ -50,8 +47,15 @@
     padding: 6px 10px;
 }
 
+
 .card__body {
     padding: 14px 14px 16px;
+}
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card__title {
